@@ -1,0 +1,40 @@
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        body {
+            background: #ffffff;
+            color: #2b2b2b;
+            font-family: Arial, sans-serif;
+            padding-top: 40px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        #home {
+            background: linear-gradient(135deg, #ffffff, #6a11cb);
+            color: white;
+        }
+
+        #featured {
+            background: linear-gradient(135deg, #dabcf5, #ffffff);
+        }
+
+        #categories-section {
+            background: linear-gradient(135deg, #ffffff, #dabcf5);
+        }
+
+        .hero-content {
+            background: url("https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_1280.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 80px 80px;
+        }
+
+        #girlBook {
+            width: 40%;
+            max-width: 300px;
+        }
