@@ -22,7 +22,7 @@
             background: linear-gradient(135deg, #dabcf5, #ffffff);
         }
 
-        #categories-section {
+        #resources {
             background: linear-gradient(135deg, #ffffff, #dabcf5);
         }
 
@@ -32,6 +32,16 @@
             background-position: center;
             background-repeat: no-repeat;
             padding: 80px 80px;
+        }
+
+        .hero-wrapper {
+            width: 50%;
+        }
+
+        @media (min-width: 991px) {
+            .hero-wrapper {
+                width: 100%;
+            }
         }
 
         #girlBook {
@@ -52,4 +62,17 @@
             width: 100%;
             height: 300px;
             object-fit: cover;
+        }
+
+        .category-card {
+            width: 14rem;
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #daaaf1, #4a00e0);
+            transition: all 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
